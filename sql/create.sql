@@ -1,0 +1,10 @@
+CREATE SCHEMA b2;
+
+USE b2;
+
+CREATE TABLE IF NOT EXISTS verjaardagen (
+	id INT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
+    name VARCHAR(64) NOT NULL,
+    last_name VARCHAR(64) NOT NULL,
+    date_of_birth DATE NOT NULL
+);
