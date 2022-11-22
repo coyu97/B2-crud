@@ -1,3 +1,5 @@
+<?php require_once "./error_reporting.php"; ?>
+
 <!DOCTYPE html>
 <html lang="en">
 	<head>
@@ -13,7 +15,7 @@
 
 			<table class="table">
 				<tbody>
-					<?php include 'read.php'; ?>
+					<?php include "read.php"; ?>
 				</tbody>
 			</table>
 
@@ -24,7 +26,7 @@
 				<input type="text" class="form-control m-2" id="lastname" name="lastname">
 				<label for="dateofbirth">Geboortedatum:</label>
 				<input type="date" class="form-control m-2" id="dateofbirth" name="dateofbirth">
-				<button type="submit" name='submit' class="btn btn-primary">Add</button>
+				<button type="submit" name="submit" class="btn btn-primary">Add</button>
 			</form>
 
 		</div>
